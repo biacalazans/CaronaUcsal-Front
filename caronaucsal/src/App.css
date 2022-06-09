@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Neon Led";
+  src: url("./assets/NEONLEDLight.otf") format("otf");
+}
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 500px) {
+  .logo {
+    width: 260px;
+    height: 40px;
+    margin-top: 8px;
+  }
+
+  main {
+    max-width: 840px;
+    margin: auto;
+    margin-top: 48px;
+  }
+
+  h2 {
+    font-size: 40px;
+    color: #333333;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    font-weight: 400;
+    margin-top: 0px;
+  }
+
+  .subtitle {
+    color: #818283;
+    font-size: 20px;
+    margin-bottom: 6px;
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-bottom: 2px;
+    font-weight: 400;
+  }
+
+  .btn {
+    background-color: #bc3908;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    width: 280px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.2);
+    margin-left: 40px;
+    margin-top: 16px;
+  }
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-container1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .mobile-profile {
+    display: none;
+  }
+
+  .rides {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+  }
+
+  .drop-text {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .flex-item {
+    max-width: 360px;
+  }
+
+  .dropdown {
+    border-radius: 10px;
+  }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 498px) {
+  .logo {
+    width: 180px;
+    height: 28px;
+    margin-top: 12px;
+  }
+
+  main {
+    padding: 24px;
+  }
+
+  h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 0px;
+    margin-left: 14px;
+    font-weight: 400;
+    margin-top: 0px;
+  }
+
+  .subtitle {
+    color: #818283;
+    font-size: 16px;
+    margin-bottom: 6px;
+    margin-top: 0px;
+    margin-left: 14px;
+    margin-bottom: 2px;
+    font-weight: 400;
+  }
+
+  .avatar {
+    width: 69px;
+    height: 69px;
+  }
+
+  .btn {
+    background-color: #bc3908;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    width: 280px;
+    height: 42px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.2);
+
+    margin-top: 16px;
+  }
+  .flex-container {
+    display: none;
+  }
+
+  .mobile-profile {
+    margin: auto;
+    max-width: 300px;
+  }
+
+  .flex-container-mobile {
+    display: flex;
+  }
+
+  .rides {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+  }
+
+  .drop-text {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .flex-item {
+    max-width: 360px;
+  }
+}
